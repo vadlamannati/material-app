@@ -17,12 +17,17 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.DarkActionBar">
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="appbar_elevation">
+    </style>
+
+    <style name="fab_elevation">
     </style>
 
 </resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Bacon.Detail">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="appbar_elevation">
+        <item name="android:elevation">16dp</item>
+    </style>
+
+    <style name="fab_elevation">
+        <item name="android:elevation">8dp</item>
+    </style>
+
+
+</resources>
