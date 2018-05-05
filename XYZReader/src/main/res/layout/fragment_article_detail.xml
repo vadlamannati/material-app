@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                style="@style/appbar_elevation"
+                style="@style/appbar_style"
                 android:layout_marginTop="@dimen/detail_card_top_margin"
                 android:background="#fff"
                 android:elevation="2dp"
@@ -102,8 +102,7 @@
         android:layout_marginEnd="@dimen/fab_margin"
         android:background="@drawable/add_fab_background"
         android:contentDescription="@string/action_share"
-        style="@style/fab_elevation"
-        android:src="@drawable/ic_share"
-        android:stateListAnimator="@anim/fab_state_list_anim" />
+        style="@style/fab_animator"
+        android:src="@drawable/ic_share" />
 
 </com.bharadwaj.xyzreader.ui.DrawInsetsFrameLayout>

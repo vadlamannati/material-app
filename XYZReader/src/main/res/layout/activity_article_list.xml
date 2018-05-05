@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
         android:fitsSystemWindows="true"
-        style="@style/appbar_elevation"
+        style="@style/appbar_style"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 app:layout_collapseMode="pin"
-                style="@style/appbar_elevation"
+                style="@style/appbar_style"
                 android:layout_gravity="bottom">
 
                 <ImageView

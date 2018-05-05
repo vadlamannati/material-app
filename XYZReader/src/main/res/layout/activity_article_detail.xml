@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:fitsSystemWindows="true"
-        style="@style/appbar_elevation"
+        style="@style/appbar_style"
         android:theme="@style/AppTheme.AppBarOverlay">
 
             <android.support.v7.widget.Toolbar

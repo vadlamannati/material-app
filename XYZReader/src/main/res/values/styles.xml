@@ -24,10 +24,10 @@
     <style name="Theme.Bacon.Detail">
     </style>
 
-    <style name="appbar_elevation">
+    <style name="appbar_style">
     </style>
 
-    <style name="fab_elevation">
+    <style name="fab_animator">
     </style>
 
 </resources>
