@@ -17,17 +17,22 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="android:textColor">@color/primary_text</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.Bacon.Detail">
+    <style name="AppTheme.Detail">
     </style>
 
     <style name="appbar_style">
     </style>
 
     <style name="fab_animator">
+        <item name="android:colorBackground">@color/theme_accent</item>
     </style>
 
 </resources>

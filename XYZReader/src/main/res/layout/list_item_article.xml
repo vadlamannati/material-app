@@ -8,6 +8,7 @@
     android:layout_marginBottom="4dp"
     android:clickable="true"
     android:focusable="true"
+    style="@style/card_view_style"
     android:foreground="?selectableItemBackground">
 
     <LinearLayout
@@ -30,6 +31,7 @@
             android:paddingLeft="16dp"
             android:paddingTop="16dp"
             android:paddingRight="16dp"
+            android:textColor="@color/primary_text"
             android:textStyle="bold"
             android:paddingBottom="4dp"
             android:ellipsize="end"
@@ -43,7 +45,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
-            android:textColor="@color/theme_accent"
+            android:textColor="@color/secondary_text"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>

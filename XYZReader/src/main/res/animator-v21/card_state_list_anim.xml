@@ -16,14 +16,13 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:state_enabled="true"
         android:state_pressed="true">
         <set>
             <objectAnimator
                 android:duration="@android:integer/config_mediumAnimTime"
                 android:propertyName="translationZ"
-                android:valueFrom="@dimen/fab_default_elevation"
-                android:valueTo="@dimen/fab_press_translation_z"
+                android:valueFrom="@dimen/card_view_resting_elevation"
+                android:valueTo="@dimen/card_view_pressed_elevation"
                 android:valueType="floatType" />
         </set>
     </item>
@@ -32,8 +31,8 @@
             <objectAnimator
                 android:duration="@android:integer/config_shortAnimTime"
                 android:propertyName="default"
-                android:valueFrom="@dimen/fab_press_translation_z"
-                android:valueTo="@dimen/fab_default_elevation"
+                android:valueFrom="@dimen/card_view_pressed_elevation"
+                android:valueTo="@dimen/card_view_resting_elevation"
                 android:valueType="floatType" />
         </set>
     </item>

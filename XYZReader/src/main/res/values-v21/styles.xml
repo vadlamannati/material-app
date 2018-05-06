@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Bacon.Detail">
+    <style name="AppTheme.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
@@ -12,8 +12,13 @@
     </style>
 
     <style name="fab_animator">
+        <item name="android:elevation">@dimen/fab_default_elevation</item>
         <item name="android:stateListAnimator">@animator/fab_state_list_anim</item>
     </style>
 
+    <style name="card_view_style">
+        <item name="android:elevation">@dimen/card_view_resting_elevation</item>
+        <item name="android:stateListAnimator">@animator/card_state_list_anim</item>
+    </style>
 
 </resources>

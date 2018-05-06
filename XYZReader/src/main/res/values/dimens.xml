@@ -12,4 +12,7 @@
     <dimen name="app_bar_height">112dp</dimen>
     <dimen name="detail_photo_top_margin">4dp</dimen>
 
+    <dimen name="card_view_resting_elevation">2dp</dimen>
+    <dimen name="card_view_pressed_elevation">8dp</dimen>
+
 </resources>
