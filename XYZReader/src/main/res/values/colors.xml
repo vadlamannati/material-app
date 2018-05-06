@@ -19,7 +19,7 @@
     <color name="primary">#004D40</color>
     <color name="primary_dark">#00251A</color>
     <color name="primary_light">#B2DFDB</color>
-    <color name="theme_accent">#FF5722</color>
+    <color name="theme_accent">#004D40</color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
     <color name="icons">#FFFFFF</color>
